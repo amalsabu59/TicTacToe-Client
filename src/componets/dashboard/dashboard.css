@@ -1,0 +1,15 @@
+.dashboard-container {
+    padding:10px;
+}
+.score{
+   color:white;
+   font-size:18px
+}
+.score-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-score{
+    margin:10px
+}
