@@ -2,8 +2,7 @@ import axios from "axios";
 
 const instance = axios.create({
   //loacl host
-  baseURL:
-    "https://tic-tac-toe-server-ho04s5bfo-amals-projects-f9d88d4e.vercel.app/",
+  baseURL: "https://tictactoe-jt2p.onrender.com/",
   headers: {
     "Content-Type": "application/json",
   },

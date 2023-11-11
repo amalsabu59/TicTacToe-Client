@@ -17,9 +17,7 @@ const TicTacToe = () => {
   // const [currentPlayer, setCurrentPlayer] = useState("");
 
   const userId = useSelector((state) => state.user?.currentUser?._id);
-  const socket = io.connect(
-    "https://tic-tac-toe-server-ho04s5bfo-amals-projects-f9d88d4e.vercel.app/"
-  );
+  const socket = io.connect("https://tictactoe-jt2p.onrender.com");
   const dispatch = useDispatch();
   const room = useSelector((state) => state.user?.selectedRoom);
 
